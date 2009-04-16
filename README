@@ -1,4 +1,5 @@
-Implement a basic template for http://jacobian.org/writing/django-apps-with-buildout/
+PasteScript Template for create a python package with a buildout environment.
+
 
 Installation:
 -------------
@@ -9,4 +10,4 @@ easy_install http://github.com/dinoboff/jkm.buildout.template/zipball/1.0a1
 Usage:
 ------
 
-paster create -t jkm_buildbout
+paster create -t jkm_buildout

@@ -13,7 +13,7 @@ setup(
     entry_points="""
         # -*- Entry points: -*-
         [paste.paster_create_template]
-        jkm_buildbout = jkm.buildout.template:BuildoutTemplate
+        jkm_buildout = jkm.buildout.template:BuildoutTemplate
         """
 )
 
