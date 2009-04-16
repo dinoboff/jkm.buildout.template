@@ -1,0 +1,5 @@
+include LICENCE
+include README
+include bootstrap.py
+include buildout.cfg
+recursive-include src/jkm/paste/template/tmpl *
