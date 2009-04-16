@@ -9,7 +9,7 @@ setup(
     author = 'Damien Lebrun',
     packages = find_packages('src'),
     package_dir = {'': 'src'},
-    namespace_packages=['jkm.paste'],
+    namespace_packages=['jkm','jkm.paste'],
     install_requires=['setuptools', 'PasteScript', 'Cheetah'],
     entry_points="""
         # -*- Entry points: -*-
