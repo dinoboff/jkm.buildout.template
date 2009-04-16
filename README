@@ -4,7 +4,7 @@ PasteScript Template for create a python package with a buildout environment.
 Installation:
 -------------
 
-easy_install http://github.com/dinoboff/jkm.buildout.template/zipball/1.0a1
+easy_install http://github.com/dinoboff/jkm.buildout.template/zipball/1.0a2
 
 
 Usage:
