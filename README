@@ -9,4 +9,4 @@ easy_install http://github.com/dinoboff/jkm.buildout.template/zipball/1.0a1
 Usage:
 ------
 
-paste create -t jkm_buildbout
+paster create -t jkm_buildbout
