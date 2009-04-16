@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "jkm.buildout.template",
-    version = "1.0",
+    version = "1.0a1",
     url = '',
     license = 'BSD',
     description = "A buildout tamplate for PasteScript.",
