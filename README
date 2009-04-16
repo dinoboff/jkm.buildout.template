@@ -1,0 +1,12 @@
+Implement a basic template for http://jacobian.org/writing/django-apps-with-buildout/
+
+Installation:
+-------------
+
+easy_install jkm.buildout.template
+
+
+Usage:
+------
+
+paste create -t jkm_buildbout
