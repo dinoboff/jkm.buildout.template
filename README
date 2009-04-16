@@ -3,7 +3,7 @@ Implement a basic template for http://jacobian.org/writing/django-apps-with-buil
 Installation:
 -------------
 
-easy_install jkm.buildout.template
+easy_install http://github.com/dinoboff/jkm.buildout.template/zipball/1.0a1
 
 
 Usage:
