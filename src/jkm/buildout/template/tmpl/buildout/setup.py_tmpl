@@ -1,0 +1,23 @@
+from setuptools import setup, find_packages
+
+long_description = open("README").read()
+classifiers = []
+install_requires = ['setuptools',]
+entry_points = """
+# -*- Entry points: -*-
+"""
+
+setup(name=${repr($package)},
+    version=${repr($version) or "0.0"},
+    description=${repr($description) or $empty},
+    long_description=long_description,
+    classifiers=classifiers,
+    author=${repr($author) or $empty},
+    author_email=${repr($author_email) or $empty},
+    url='',
+    license='BSD',
+    packages = find_packages('src'),
+    package_dir = {'': 'src'},
+    install_requires=install_requires,
+    entry_points=entry_points,
+    )

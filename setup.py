@@ -9,7 +9,7 @@ setup(
     author = 'Damien Lebrun',
     packages = find_packages('src'),
     package_dir = {'': 'src'},
-    install_requires=['setuptools', 'PasteScript'],
+    install_requires=['setuptools', 'PasteScript', 'Cheetah'],
     entry_points="""
         # -*- Entry points: -*-
         [paste.paster_create_template]
